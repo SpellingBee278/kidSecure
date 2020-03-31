@@ -5,6 +5,8 @@ input { font-size: 14px;
 span {font-size: 18px}
 button {
     background: cornflowerblue;
+    height:29px;
+    width:15px
 
 
 }
