@@ -4,12 +4,15 @@
 	<meta charset="UTF-8">
 	<title>Male Kid-Secure</title>
 	<link rel="stylesheet" href="stylekidsecure.css">
+	<!-- Load icon library -->
+
 
 
 
 
 </head>
 <body>
+<p>Made by Coolcoderkid</p>
 
 <span style="color:cornflowerblue">
 <i class="fas fa-user-lock fa-3x "></i>
@@ -18,28 +21,19 @@
 <h1><applet>Welcome to Kid-Secure!</applet></h1>
 <h2><applet>Go and search whatever you want! We promise to be secure.</applet></h2>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search">
+<form class="example" action="action_page.php">
+	<input type="text" placeholder="Search.." name="search">
+	<button class="button" type="submit"><i class="fa fa-search"></i></button>
+</form>
 
 
 
 
-<script>
-    function play() {
-        var audio = document.getElementById("audio");
-        audio.play();
 
-    }
-</script>
-<button class="button" type="button" value="Search" onclick="play()"></button>
-<audio id="audio" src="audio/test.m4a"></audio>
-<ul id="myUL">
-	<li><a href="#">TimeTables Rockstars</a></li>
-	<li><a href="#">Primary Resources</a></li>
 
-	<li><a href="#">Microsoft Word</a></li>
-	<li><a href="#">Youtube</a></li>
 
-	<li><a href="#">How to stay safe online</a></li>
+
+
 
 </ul>
 <a href="index.html">
@@ -51,7 +45,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px; border-radius:15px" class="button button1">Go back to Homepage</button>
+    margin: 4px 2px; border-radius:15px">Go back to Homepage</button>
 
 </a>
 <script>
