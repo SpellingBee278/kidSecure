@@ -4,8 +4,8 @@ input { font-size: 14px;
 }
 span {font-size: 18px}
 button {
-    background: #DC143C
-   linear-gradient(cadetblue,crimson)
+    background: cornflowerblue;
+  
 
 }
 math {
@@ -14,12 +14,6 @@ math {
 }
 body {
     background:darkcyan;
-
-
-
-}
-i {
-    color:cornflowerblue
 
 
 
