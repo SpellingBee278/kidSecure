@@ -3,7 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Sign up or Log in</title>
+	<style>
+
+		form {
+
+			/* To keep the form in flow with the surrounding text */
+
+			display: inline;
+
+		}
+
+	</style>
 	<link rel="stylesheet"  href="loginandsignup.css">
+	<link href="loginandsignup.js">
 </head>
 <body>
 <script src="loginandsignup.js"></script>
@@ -12,15 +24,26 @@
 	<div id="field-username">
 		<i class="fas fa-user"></i>
 		<input type="text" placeholder="Username" required>
+
 		<i class="fas fa-arrow-down"></i>
+
 	</div>
 	<div id="field-password innactive">
 		<i class="fas fa-key"></i>
-		<input type="password " placeholder="Password" required req="*">
+		<input type="password" placeholder="Password" required req="*">
 		<i class="fas fa-arrow-down"></i>
 		<div id="field-finish innactive">
 		<p>Now you have got an account!</p>
-		<i class="fas fa-user-circle"></i>
+
+			<form action="/Developmnet/sites/ilyas/kid-securesearchengine/index.html">
+
+				<button class="button" style="background-color:lightblue" type="submit">
+					Sign up!
+					<i class="fas fa-user-circle"></i>
+				</button>
+
+			</form>
+
 		</div>
 	</div>
 
