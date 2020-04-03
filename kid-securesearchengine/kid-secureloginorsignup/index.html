@@ -3,41 +3,57 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Sign up or Log in</title>
-
+	<link href="signup.php">
+	<link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
 	<link rel="stylesheet"  href="loginandsignup.css">
 	<link href="loginandsignup.js">
 </head>
 <body>
+
+<div class="body-content">
+
+	<div class="module">
+		<h2>Sign up here!</h2>
+
 <script src="loginandsignup.js"></script>
 <script src="https://kit.fontawesome.com/fd1b80277a.js" crossorigin="anonymous"></script>
-<form>
+<form class="form" action="form.php" method="post" enctype="multipart/form-data" autocomplete="off">
+	<div class="alert alert-error"></div>
 	<div id="field-username">
 		<i class="fas fa-user"></i>
 		<input type="text" placeholder="Username" required>
 
-		<i class="fas fa-arrow-down"></i>
+
 
 	</div>
 	<div id="field-password innactive">
 		<i class="fas fa-key"></i>
 		<input type="password" placeholder="Password" required req="*">
-		<i class="fas fa-arrow-down"></i>
+
 		<div id="field-finish innactive">
-		<p>Now you have got an account!</p>
+			<i class="fas fa-redo"></i>
+			<input type="password" placeholder="Repeat Password" required req="*">
+
+
+
 
 			<form action="/Developmnet/sites/ilyas/kid-securesearchengine/index.html">
 
-				<button class="button" style="background-color:lightblue" type="submit">
-					Sign up!
-					<i class="fas fa-user-circle"></i>
-				</button>
+				<input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
+
+
 
 			</form>
+		</div>
+			</form>
+	</div>
 
 		</div>
 	</div>
 
 
 </form>
+	</div>
+</div>
 </body>
 </html>
