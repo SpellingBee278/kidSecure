@@ -1,0 +1,26 @@
+.btnQ {
+    background-image:linear-gradient(rebeccapurple,hotpink);
+    height:50px;
+    width:85px;
+    border-radius:12px;
+    border:none
+}
+body {
+    background-image:linear-gradient(lightpink,mediumpurple);
+    height:1000px;
+    width:1000px
+
+
+}
+
+
+.btnQ2 {
+    margin:10px;
+    height:50px;
+    border-radius: 12px;
+    width:85px;
+    background-image:linear-gradient(hotpink,rebeccapurple) ;
+    border:none
+
+
+}

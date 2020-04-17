@@ -1,12 +1,12 @@
 .btnQ {
-background-image:linear-gradient(rebeccapurple,cornflowerblue);
+background-image:linear-gradient(lightblue,cornflowerblue);
  height:50px;
     width:85px;
     border-radius:12px;
     border:none
 }
 body {
-background-image:linear-gradient(dodgerblue,magenta);
+background-image:linear-gradient(cadetblue,dodgerblue);
 height:1000px;
     width:1000px
 
@@ -19,7 +19,7 @@ height:1000px;
 height:50px;
 border-radius: 12px;
     width:85px;
-    background-image:linear-gradient(cornflowerblue,rebeccapurple) ;
+    background-image:linear-gradient(cornflowerblue,lightblue) ;
     border:none
 
 
