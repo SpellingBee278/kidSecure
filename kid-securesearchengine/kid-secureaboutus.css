@@ -1,9 +1,26 @@
 body {
-    background-image: linear-gradient(darkcyan,cadetblue);
+    background-image: linear-gradient(cornflowerblue,mediumpurple);
+    height:1000px;
+    width:1000px;
 
 }
 
+.span {
+   color:blueviolet;
 
+}
+.btnAboutUs {
+    background-image:linear-gradient(lightblue,lightpink);
+    height:50px;
+    width:250px;
+    border-radius:10px;
+        border:none
+}
 
+.aClass {
+    background-image: linear-gradient(mediumslateblue,darkcyan);
 
-
+}
+.aboutUsH2 {
+    color:blue;
+}
