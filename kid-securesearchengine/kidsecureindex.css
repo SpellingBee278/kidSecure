@@ -1,4 +1,10 @@
 body {
     background-color:firebrick
 }
+ .clock {
+     height:100px;
+     width:100px;
+     border:none;
+        border-radius:15px;
 
+ }
