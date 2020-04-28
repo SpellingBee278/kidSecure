@@ -1,0 +1,27 @@
+body {
+    background-image:linear-gradient(#ABC,mediumslateblue);
+            height: 979px;
+                margin: 20px;
+
+
+
+}
+
+.txt404 {
+        height: 30px;
+
+
+}
+.img404 {
+    height:900px
+
+
+}
+.backToHomepage {
+    height: 35px;
+    width:25px;
+    border:none;
+    border-radius:13px;
+
+
+}
