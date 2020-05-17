@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS Learning</title>
+	<link rel="stylesheet" href="jslearning.css">
+	<script src="learn.js"></script>
+</head>
+<body>
+<h2 id="demo" class="non-HTML" title="NoHTML">[No HTML]</h2>
+<button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+
+<button onclick="this.innerHTML = Date()">The time is?</button>
+
+
+
+
+
+<script>
+
+	// ok so I copy and pasted again and I had to do this is HTML but it still counts as JS...
+    document.getElementById("demo").innerHTML = "Hello World.";
+  document.getElementById("demo").innerHTML =
+      "Hello World of JS!";
+  // These both work, the string of "Hello World of JS" works this is called line breaks and line length
+  function toCelsius(fahrenheit) {
+      return (5/9) * (fahrenheit-32);
+  }
+  document.getElementById("demo").innerHTML = toCelsius(77);
+  var text = "The temperature is " + toCelsius(77) + " Celsius";
+    document.writeln("  " + text);
+
+  var cars = ["Saab", "Volvo", "BMW"];
+  document.getElementById("demo").innerHTML = cars[0];
+
+</script>
+</body>
+</html>

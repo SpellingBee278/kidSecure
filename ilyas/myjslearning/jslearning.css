@@ -1,0 +1,10 @@
+.non-HTML {
+    color:red;
+
+
+}
+body {
+    background-image: linear-gradient(orange,orangered,darkorange);
+    height:999px;
+
+}
