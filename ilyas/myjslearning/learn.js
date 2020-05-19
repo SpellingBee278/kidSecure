@@ -193,3 +193,41 @@ function getRndInteger(min, max) {
 alert(getRndInteger());
 
 // Booleans
+Boolean(10 > 9) ;       // returns true
+// you can use the Boolean() function to find out if an expression (or a variable) is true:
+
+        // Here are examples
+ // == 	equal to 	if (day == "Monday")
+// > 	greater than 	if (salary > 9000)
+// < 	less than 	if (age < 18)
+
+var x1001 = 0;
+Boolean(x1001);       // returns false
+    // The boolean value of 0 is false
+var x1011 = -0;
+Boolean(x1011);       // returns false
+    // The boolean value of -0 is also false
+var emptyStringBoolean = "";
+    Boolean(emptyStringBoolean); // returns false
+        // Empty strings are also false
+    var undefined;
+        Boolean(undefined);
+            // the boolean value of undefined things are false
+    var Nul123 = null;
+        Boolean(Nul123); // returns false
+            // the boolean value of null are false
+
+        var False1234 = false;
+            Boolean(False1234); // returns false
+            // the boolean value of false are false
+
+            var NAN = 10 / "H";
+                Boolean(NAN); // returns false
+                // the boolean value of NaN are false
+        var BooleanObject = new Boolean(false);
+                // Boolean can be objects
+
+        var age = 16;
+
+
+
