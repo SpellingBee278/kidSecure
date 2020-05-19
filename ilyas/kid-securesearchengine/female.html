@@ -10,17 +10,54 @@
 
 </head>
 <body>
+<p>Made by Coolcoderkid</p>
 <span style="color:mediumpurple">
 <i class="fas fa-user-lock fa-3x "></i>
 	</span>
 <span style="color:violet"><h3>Kid-Secure</h3></span>
 <h1><applet>Welcome to Kid-Secure!</applet></h1>
 <h2><applet>Go and search whatever you want! We promise to be secure.</applet></h2>
-<input text="type">
 
-<button><h2>Search!</h2></button> <span>
-	<math><-- Press to search!</math>
+<form class="example" action="action_page.php">
+	<input type="text" placeholder="Search.." name="search">
+	<button style="border:none" class="button" type="submit"><i class="fa fa-search"></i></button>
+</form>
 
+
+<a href="index.html">
+	<button style="background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px; border-radius:15px" class="button button1">Go back to Homepage</button>
+
+</a>
+
+<script>
+    function myFunction() {
+        // Declare variables
+        var input, filter, ul, li, a, i, txtValue;
+        input = document.getElementById('myInput');
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myUL");
+        li = ul.getElementsByTagName('li');
+
+        // Loop through all list items, and hide those who don't match the search query
+        for (i = 0; i < li.length; i++) {
+            a = li[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                li[i].style.display = "";
+            } else {
+                li[i].style.display = "none";
+            }
+        }
+    }
+</script>
 
 
 
