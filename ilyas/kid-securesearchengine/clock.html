@@ -16,12 +16,13 @@
 		<div id="date"></div>
 	</div>
 </div>
-<i class="fas fa-clock-sm"></i>
+
 <script>function startTime() {
-    var today = new Date();
+		var today = new Date();
     var hr = today.getHours();
     var min = today.getMinutes();
     var sec = today.getSeconds();
+
     min = checkTime(min);
     sec = checkTime(sec);
 
@@ -29,13 +30,20 @@
 
 
     var time = setTimeout(function(){ startTime() }, 500);
+
 }
+
 function checkTime(i) {
     if (i < 10) {
         i = "0" + i;
     }
     return i;
-}</script>
+}
+
+
+
+
+</script>
 
 </body>
 </html>
