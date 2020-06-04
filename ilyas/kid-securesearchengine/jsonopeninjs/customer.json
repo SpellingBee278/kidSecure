@@ -1,0 +1,12 @@
+
+{
+  "name": "Mega Corp.",
+  "order_count": 83,
+  "address": "Infinity Loop Drive",
+
+  "company__name": "Newbie Co.",
+  "address__name": "Po Box City",
+  "order_count_num": 0
+
+}
+

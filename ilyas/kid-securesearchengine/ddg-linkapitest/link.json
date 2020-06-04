@@ -1,0 +1,268 @@
+{
+  "AbstractURL" : "https://en.wikipedia.org/wiki/DuckDuckGo",
+  "AbstractText" : "DuckDuckGo is an internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results. DuckDuckGo distinguishes itself from other search engines by not profiling its users and by showing all users the same search results for a given search term. The company is based in Paoli, Pennsylvania, in Greater Philadelphia, and has 93 employees as of May 2020. The company name is a reference to the children's game duck, duck, goose.",
+  "AnswerType" : "",
+  "ImageHeight" : 0,
+  "DefinitionURL" : "",
+  "Definition" : "",
+  "Answer" : "",
+  "Results" : [],
+  "RelatedTopics" : [
+    {
+      "Icon" : {
+        "Width" : "",
+        "Height" : "",
+        "URL" : ""
+      },
+      "FirstURL" : "https://duckduckgo.com/Startpage.com",
+      "Text" : "Startpage.com - Startpage is a web search engine that highlights privacy as its distinguishing feature. Previously, it was known as the metasearch engine Ixquick, At that time, Startpage was a variant service. Both sites were merged in 2016.",
+      "Result" : "<a href=\"https://duckduckgo.com/Startpage.com\">Startpage.com</a> - Startpage is a web search engine that highlights privacy as its distinguishing feature. Previously, it was known as the metasearch engine Ixquick, At that time, Startpage was a variant service. Both sites were merged in 2016."
+    },
+    {
+      "Icon" : {
+        "Height" : "",
+        "URL" : "",
+        "Width" : ""
+      },
+      "FirstURL" : "https://duckduckgo.com/Names_Database",
+      "Text" : "Names Database - The Names Database is a defunct social network, owned and operated by Classmates.com, a wholly owned subsidiary of United Online. The site does not appear to be significantly updated since 2008, and has many broken links and display issues.",
+      "Result" : "<a href=\"https://duckduckgo.com/Names_Database\">Names Database</a> - The Names Database is a defunct social network, owned and operated by Classmates.com, a wholly owned subsidiary of United Online. The site does not appear to be significantly updated since 2008, and has many broken links and display issues."
+    },
+    {
+      "Result" : "<a href=\"https://duckduckgo.com/Timeline_of_web_search_engines\">Timeline of web search engines</a> - This page provides a full timeline of web search engines, starting from the Archie search engine in 1990. It is complementary to the history of web search engines page that provides more qualitative detail on the history.",
+      "Text" : "Timeline of web search engines - This page provides a full timeline of web search engines, starting from the Archie search engine in 1990. It is complementary to the history of web search engines page that provides more qualitative detail on the history.",
+      "FirstURL" : "https://duckduckgo.com/Timeline_of_web_search_engines",
+      "Icon" : {
+        "Width" : "",
+        "Height" : "",
+        "URL" : ""
+      }
+    },
+    {
+      "Result" : "<a href=\"https://duckduckgo.com/c/Companies_based_in_Chester_County%2C_Pennsylvania\">Companies based in Chester County, Pennsylvania</a>",
+      "Icon" : {
+        "Width" : "",
+        "Height" : "",
+        "URL" : ""
+      },
+      "FirstURL" : "https://duckduckgo.com/c/Companies_based_in_Chester_County%2C_Pennsylvania",
+      "Text" : "Companies based in Chester County, Pennsylvania"
+    },
+    {
+      "Result" : "<a href=\"https://duckduckgo.com/c/Perl_software\">Perl software</a>",
+      "FirstURL" : "https://duckduckgo.com/c/Perl_software",
+      "Text" : "Perl software",
+      "Icon" : {
+        "Height" : "",
+        "URL" : "",
+        "Width" : ""
+      }
+    },
+    {
+      "Result" : "<a href=\"https://duckduckgo.com/c/Internet_privacy_software\">Internet privacy software</a>",
+      "FirstURL" : "https://duckduckgo.com/c/Internet_privacy_software",
+      "Text" : "Internet privacy software",
+      "Icon" : {
+        "URL" : "",
+        "Height" : "",
+        "Width" : ""
+      }
+    },
+    {
+      "Icon" : {
+        "Width" : "",
+        "URL" : "",
+        "Height" : ""
+      },
+      "Text" : "Proprietary cross-platform software",
+      "FirstURL" : "https://duckduckgo.com/c/Proprietary_cross-platform_software",
+      "Result" : "<a href=\"https://duckduckgo.com/c/Proprietary_cross-platform_software\">Proprietary cross-platform software</a>"
+    },
+    {
+      "Result" : "<a href=\"https://duckduckgo.com/c/Internet_search_engines\">Internet search engines</a>",
+      "Icon" : {
+        "Width" : "",
+        "URL" : "",
+        "Height" : ""
+      },
+      "FirstURL" : "https://duckduckgo.com/c/Internet_search_engines",
+      "Text" : "Internet search engines"
+    }
+  ],
+  "Image" : "",
+  "meta" : {
+    "developer" : [
+      {
+        "name" : "DDG Team",
+        "type" : "ddg",
+        "url" : "http://www.duckduckhack.com"
+      }
+    ],
+    "perl_module" : "DDG::Fathead::Wikipedia",
+    "src_domain" : "en.wikipedia.org",
+    "production_state" : "online",
+    "blockgroup" : null,
+    "example_query" : "nikola tesla",
+    "repo" : "fathead",
+    "dev_milestone" : "live",
+    "signal_from" : "wikipedia_fathead",
+    "attribution" : null,
+    "status" : "live",
+    "designer" : null,
+    "id" : "wikipedia_fathead",
+    "src_name" : "Wikipedia",
+    "live_date" : null,
+    "src_id" : 1,
+    "is_stackexchange" : null,
+    "description" : "Wikipedia",
+    "js_callback_name" : "wikipedia",
+    "name" : "Wikipedia",
+    "topic" : [
+      "productivity"
+    ],
+    "unsafe" : 0,
+    "created_date" : null,
+    "dev_date" : null,
+    "producer" : null,
+    "tab" : "About",
+    "maintainer" : {
+      "github" : "duckduckgo"
+    },
+    "src_options" : {
+      "skip_abstract" : 0,
+      "skip_qr" : "",
+      "is_fanon" : 0,
+      "directory" : "",
+      "skip_abstract_paren" : 0,
+      "min_abstract_length" : "20",
+      "src_info" : "",
+      "source_skip" : "",
+      "skip_image_name" : 0,
+      "language" : "en",
+      "skip_icon" : 0,
+      "is_mediawiki" : 1,
+      "is_wikipedia" : 1,
+      "skip_end" : "0"
+    },
+    "src_url" : null
+  },
+  "AbstractSource" : "Wikipedia",
+  "Heading" : "DuckDuckGo",
+  "ImageWidth" : 0,
+  "DefinitionSource" : "",
+  "Type" : "A",
+  "Abstract" : "DuckDuckGo is an internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results. DuckDuckGo distinguishes itself from other search engines by not profiling its users and by showing all users the same search results for a given search term. The company is based in Paoli, Pennsylvania, in Greater Philadelphia, and has 93 employees as of May 2020. The company name is a reference to the children's game duck, duck, goose.",
+  "Entity" : "infobox",
+  "Redirect" : "",
+  "Infobox" : {
+    "meta" : [
+      {
+        "label" : "article_title",
+        "data_type" : "string",
+        "value" : "DuckDuckGo"
+      },
+      {
+        "data_type" : "string",
+        "label" : "template_name",
+        "value" : "infobox"
+      }
+    ],
+    "content" : [
+      {
+        "wiki_order" : 0,
+        "value" : "Multilingual",
+        "data_type" : "string",
+        "label" : "Available in"
+      },
+      {
+        "label" : "Area served",
+        "data_type" : "string",
+        "value" : "Worldwide",
+        "wiki_order" : 1
+      },
+      {
+        "label" : "Owner",
+        "data_type" : "string",
+        "value" : "Duck Duck Go, Inc.",
+        "wiki_order" : 2
+      },
+      {
+        "label" : "Created by",
+        "data_type" : "string",
+        "value" : "Gabriel Weinberg",
+        "wiki_order" : 3
+      },
+      {
+        "wiki_order" : 4,
+        "value" : "183 (April 24, 2020)",
+        "data_type" : "string",
+        "label" : "Alexa rank"
+      },
+      {
+        "data_type" : "string",
+        "label" : "Commercial",
+        "wiki_order" : 5,
+        "value" : "Yes"
+      },
+      {
+        "data_type" : "string",
+        "label" : "Registration",
+        "wiki_order" : 6,
+        "value" : "None"
+      },
+      {
+        "wiki_order" : 7,
+        "value" : "September 25, 2008",
+        "data_type" : "string",
+        "label" : "Launched"
+      },
+      {
+        "label" : "Current status",
+        "data_type" : "string",
+        "value" : "Active",
+        "wiki_order" : 8
+      },
+      {
+        "wiki_order" : 9,
+        "value" : "Perl, JavaScript, Python",
+        "data_type" : "string",
+        "label" : "Written in"
+      },
+      {
+        "label" : "GitHub profile",
+        "data_type" : "github_profile",
+        "value" : "duckduckgo",
+        "wiki_order" : "101"
+      },
+      {
+        "data_type" : "twitter_profile",
+        "label" : "Twitter profile",
+        "wiki_order" : "102",
+        "value" : "duckduckgo"
+      },
+      {
+        "data_type" : "instagram_profile",
+        "label" : "Instagram profile",
+        "wiki_order" : "103",
+        "value" : "duckduckgo"
+      },
+      {
+        "data_type" : "facebook_profile",
+        "label" : "Facebook profile",
+        "wiki_order" : "104",
+        "value" : "duckduckgo"
+      },
+      {
+        "wiki_order" : "207",
+        "value" : {
+          "entity-type" : "item",
+          "id" : "Q4182287",
+          "numeric-id" : 4182287
+        },
+        "data_type" : "instance",
+        "label" : "Instance of"
+      }
+    ]
+  },
+  "ImageIsLogo" : 0
+}
